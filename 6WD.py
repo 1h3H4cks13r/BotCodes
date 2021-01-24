@@ -1,0 +1,29 @@
+import RPi.GPIO as io
+import time
+io.setwarnings(False)
+io.setmode(io.BCM)
+io.cleanup()
+io.setup(0,io.OUT)
+io.setup(5,io.OUT)
+io.setup(6,io.OUT)
+io.setup(13,io.OUT)
+io.setup(19,io.OUT)
+io.setup(26,io.OUT)
+io.setup(25,io.OUT)
+io.setup(8,io.OUT)
+io.setup(7,io.OUT)
+io.setup(1,io.OUT)
+io.setup(20,io.OUT)
+io.setup(21,io.OUT)
+L1=io.PWM(0
+L1
+L2=io.PWM(5
+L2=io.PWM(
+L3=io.PWM(6
+L3=io.PWM(
+R1=io.PWM(13
+R1=io.PWM(
+R2=io.PWM(19
+R2=io.PWM(
+R3=io.PWM(26
+R3=io.PWM(
